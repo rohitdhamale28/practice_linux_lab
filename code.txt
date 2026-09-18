@@ -34,3 +34,13 @@ docker run -d -p 8080:80 --name apache-server httpd
 docker start apache-server                                    
 
 docker cp index.html apache-server:/usr/local/apache2/htdocs/
+
+
+
+echo "# linux_lab_exam" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rohitdhamale28/linux_lab_exam.git
+git push -u origin main
